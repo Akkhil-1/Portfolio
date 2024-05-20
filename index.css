@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.back{
+    width: 100%;
+    height: 667px;
+    position: absolute;
+    object-fit:cover;
+    filter:blur(2.0px);
+}
+.info{
+    position: relative;
+    padding-top: 30px;
+
+}
+.navbar{
+    height: 37px;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 18px;
+    /* position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%; */
+
+}
+.sign img{
+    height: 75px;
+    width: 100%;
+}
+.name{
+    color:rgb(169, 154, 154);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    /* margin-top: 170px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.role{
+    color:rgb(32, 31, 31);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    font-size: 30px;
+}
+.role-btn{
+    margin-left: 500px;
+    margin-top: 10px;
+
+}
+.nav-bar{
+    display: flex;
+    position: sticky;
+}
+.page-two{
+    position: relative;
+    margin-top: auto;
+}
+.nav-bar-1{
+    height: 25px;
+    left:0px;
+    margin-top: 432px;
+    padding-top:13px;
+    padding-bottom:20px;
+    font-size: 23px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    color:rgb(76, 13, 222);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.color{
+    color: rgb(76, 13, 222);
+    font-weight: 600px;
+    font-size: inherit;
+}
+.about-section{
+    background-color: white;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid black;
+    height:710px;
+    position: relative;
+
+}
+.one-side{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    position: relative;
+}
+.oneee{
+    display: flex;
+    flex-direction: row;
+    margin-top: -18px;
+
+}
+.me-pic{
+    border: 4px solid rgb(2, 0, 7);
+    border-radius: 10px;
+    padding-top: 10px;
+    height: 200px;
+    width: 126px;
+    overflow: hidden;
+    padding-right: 35px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.me-pic img{
+    height: 280px;    
+}
+.all-info{
+    margin-top: 10px;
+    font-size: larger;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    
+}
+.Skills{
+    padding-top: 50px;
+    padding-left: 89px;
+}
+.skilss-hr{
+    height: 2px;
+    width: 300px;
+    background-color: black;
+}
+
+.sec-side{
+    margin-left: 200px;
+    margin-top: 20px;
+    position: relative;
+}
+h4{
+    font-weight: bold;
+    font-size: 38px;
+    color: rgb(76, 13, 222);
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container{
+    background-color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin-top: -2px;
+}
+
+form {
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -5px;
+    position: relative;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+input {
+    margin-top: 15px;
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: rgb(76, 13, 222);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(76, 13, 222);
+    color:black;
+}
+h5{
+    color:rgb(76, 13, 222);
+    font-size: 35px;
+    padding-top: -10px;
+    margin-top: 10px;
+    font-weight: bold;
+    position: relative;
+}
+.cont-secside{
+    margin-left: 200px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.foot{
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+i{
+    height:auto;
+    width:50px;
+    font-size:30px;
+}
+a:hover{
+    color: rgb(76, 13, 222);
+    width: 60px;
+    cursor: pointer;
+}
+.foot{
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sec-img{
+    position: absolute;
+    object-fit: cover;
+    margin-top:0px;
+    height: 765px;
+    width: 100%;
+    filter:blur(0.5px);
+}
+.thir-img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 711px;
+    filter: blur(4px);
+}
+.abt{
+    width: 450px;
+    height: 2px;
+    background-color:black;
+}
+.abtt{
+    height: 2px;
+    background-color: black;
+}
+
+.skills-img{
+    margin-top: 15px;   
+}
+.skills-img img{
+    height: 290px;
+    width: 532px;
+}
+.btn-d{
+    background-color: rgb(76, 13, 222);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 190px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+.btn-d:hover{
+    background-color: rgb(76, 13, 222);
+    color:black;
+    
+}
+.btn-d i{
+    font-size: 18px;
+}
+
+
+ 

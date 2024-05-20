@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon-16x16.png">
+    <meta property="og:image" content="https://res.cloudinary.com/dur5jea8e/image/upload/v1706703995/portfolio_thumbnail.png"/>
+</head>
+<body>
+    <header class="navbar">
+        <div class="sign"><img src="newsign.png"></div>
+    </header>
+    <img class="back" src="akhil-main.png">
+    <main class="conatiner" id="one">
+        <div class="info">
+            <pre>
+            <h1 class="name">l'm <span class="color">Akhil Acharya</span></h1>
+            </pre>
+        </div>
+        <div class="info">
+            <h3 class="role">Developer | Ui/Ux Designer </h3>
+        </div>
+    </main>
+    <div class="page-two" id="two">
+        <div class="nav-bar">
+            <ul class="nav-bar-1">
+                <a href="#one"><li>Home</li></a>
+                <a href="#two"><li>About</li></a>
+                <li>Resume</li>
+                <li>Work</li>
+                <li>Blog</li>
+                <a href="#three"><li>Contact</li></a>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div class="about-section">
+        <img class="thir-img" src="overlay-bg.jpg">
+            <div class="one-side">
+                <div class="oneee">
+                    <div class="me-pic">
+                        <img src="akhil.png">
+                    </div>
+                    <div class="all-info">
+                        <h3>
+                        <b><u>Name</style></u></b>: Akhil Acharya <br><br>
+    
+                        <b><u>Profile</u></b>: Full stack Developer <br>
+                        <br>
+    
+                        <b><u>Email</u></b>  : akhilacharya343@gmail.com <br><br>
+    
+                        <b><u>Phone</u></b>  : 98167-88797 
+                        </h3>
+                    </div>
+                </div>
+                <div class="Skills">
+                    <h4>Skills</h4><hr class="skilss-hr">
+                    <div class="skills-img">
+                        <img src="skills.png" alt="">
+                    </div>
+                </div>
+            </div>
+        <div class="sec-side">
+            <h4 class="heading">About Me<hr class="abt"></h4>
+            <p class="para">
+                Lauzon is a universal digital loyalty program that <br>offers unique and fun rewards at the places you love.<br><br>
+                • Simultaneously created & maintained scheduled jobs in <br>SQL Server for space maintenance and daily backups <br>of system and user databases for 10 clients<br><br>
+                • Increased company revenue by 30% within 2 months after<br> developing and implementing business logic for<br> over 20 features<br><br>
+                • Designed and Developed UI design for over 15 clients<br> using CSS, HTML, ASP.NET, Vue, and React <br>websites scoring over 85 on Lighthouse.<br><br>
+                • Studied in Chitkara University(Punjab).
+
+            </p>
+
+        </div>
+    </div>
+    <hr>
+    <hr>
+
+    <!-- contact us box -->
+    <div class="container" id="three">
+        <img class="sec-img" src="overlay-bg.jpg">
+        <div class="cont-oneside">
+            <form action="">
+
+                <h5>
+                    Send Message Us<hr class="abtt">
+                </h5>
+
+                <input type="text" id="name" name="name" placeholder="Your Name.."><br>
+            
+
+                <input type="email" id="email" name="email" placeholder="Your Email"><br>
+
+                <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+            
+                <input type="text" id="message" name="message"
+                placeholder="Message"><br>
+            
+                <button type="submit" class="btn" onclick="registerform(event)">Send Me</button>
+              </form>
+        </div>
+
+        <div class="cont-secside">
+            <h4>Get in Touch</h4><hr class="abtt">
+            <p>Contact us pages are a bit undervalued in website design.<br> Some designers save up all their creative energy for <br>the homepage, the shop or the portfolio. While these <br>pages are certainly the priority, the humble contact<br> page is also worthy of attention.</p><br>
+            <br>
+            <i class="fa-solid fa-location-dot"></i> Chitkara University , Rajpura (140401)<br><br>
+            <i class="fa-solid fa-phone"></i> 98167-88797<br><br>
+            <i class="fa-solid fa-envelope"></i> akhilacharya343@gmail.com
+            <br><br>
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+            <a><i class="fa-brands fa-linkedin"></i></a><br><br>
+            <button class="btn-d"><i class="fa-solid fa-download"></i>Download Cv</button>
+        </div>
+    </div>
+    <div class="foot">
+        <p>© Copyright <b> DevFolio</b> Reserved.</p>
+    </div>
+
+
+    <script>
+        function registerform(){
+
+            event.preventDefault();
+            const username = document.getElementById('name').value;
+            const firstname = document.getElementById('email').value;
+            const lastname = document.getElementById('subject').value;
+            const email = document.getElementById('message').value;
+
+            const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            const emailverify = emailRegex.test(email)
+
+            if(!name || !email || !subject || !message)
+            {
+                alert('Fill the empty details...')
+            }
+            else if
+                (!emailverify)
+                {
+                    alert('enter valid email');
+                }
+            else{
+
+                /* form data is an object*/
+                const formData = {
+                    'name' : name,
+                    'email' : email,
+                    'subject' : message,
+                    'message' : subject,
+                }
+    
+                console.log('FORM DATA',formData);
+            }
+        }
+    </script>
+</body>
+</html>
